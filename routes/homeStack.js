@@ -6,7 +6,6 @@ import Login from '../screens/Login';
 const screens = {
     Home: {
         screen: Home
-
     },
     Login: {
         screen: Login
