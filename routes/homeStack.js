@@ -3,7 +3,8 @@ import { createAppContainer } from 'react-navigation';
 import Home from '../screens/Home';
 import Login from '../screens/Login';
 import NestedHome from '../screens/NestedHome'
-import Profile from '../screens/Profile'
+import BottomTabHandler from '../routes/bottomTab'
+
 
 
 const screens = {
@@ -13,16 +14,16 @@ const screens = {
     Login: {
         screen: Login
     },
-
+    
     NestedHome: {
         screen: NestedHome
     },
-
-    Profile: {
-        screen: Profile
+    BottomTabHandler: {
+        screen: BottomTabHandler
     }
 }
 
 const HomeStack = createStackNavigator(screens);
+
 
 export default createAppContainer(HomeStack);
