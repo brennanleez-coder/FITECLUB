@@ -10,7 +10,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-export default function App() {
+export default function App({navigation}) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [hidePassword, setHidePassword] = useState(true);
@@ -50,7 +50,7 @@ export default function App() {
           <Text style={styles.loginText}>Signup</Text>
         </TouchableOpacity>
  
-      <TouchableOpacity style={styles.loginBtn}>
+      <TouchableOpacity style={styles.loginBtn} onPress={() => navigation.navigate("NestedHome")} title='proceed'>
         <Text style={styles.loginText}>LOGIN</Text>
       </TouchableOpacity>
       
