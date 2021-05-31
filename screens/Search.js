@@ -39,8 +39,7 @@ class FlatListWithSearch extends Component {
             lightTheme   
             onChangeText={text=>this.searchAction(text)}
             autoCorrect={false}
-            value={search}
-            clearButtonMode='always' />
+            value={search}/>
 
         )
     }
