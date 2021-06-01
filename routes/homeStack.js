@@ -19,18 +19,7 @@ const screens = {
     NestedHome: {
         screen: NestedHome
     },
-    BottomTabHandler: {
-        screen: BottomTabHandler
-    },
-    Profile: {
-        screen: Profile
-    },
-    Search: {
-        screen: Search
-    },
-    Ranking: {
-        screen: Ranking
-    }
+
 }
 
 const HomeStack = createStackNavigator(screens);
