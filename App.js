@@ -8,8 +8,14 @@ import NestedHomeNavigator from './routes/NestedHomeStack'
 
 const MyStack = () => {
   return (
-      <HomeNavigator />
+    <>
+    <NavigationContainer>
+      <HomeNavigator/>
+      <NestedHomeNavigator/>
+    </NavigationContainer>
+    
+    </>
   );
 };
-
+4
 export default MyStack
