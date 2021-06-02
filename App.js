@@ -3,7 +3,7 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Homestack from './routes/homeStack';
-import NestedHomeNavigator from './routes/NestedHomeStack'
+
 
 
 const MyStack = () => {
@@ -11,7 +11,6 @@ const MyStack = () => {
     <>
     <NavigationContainer>
       <Homestack/>
-
     </NavigationContainer>
     
     </>
