@@ -3,24 +3,24 @@ import React from 'react';
 import { ImageBackground,
   StyleSheet, Button, View, SafeAreaView, Text, Alert, Image, ScrollView } from 'react-native';
 
-const Home = ({navigation}) => {
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
+import NestedHome from '../screens/NestedHome'
+import Profile from '../screens/Profile'
+import Search from '../screens/Search'
+import Rankings from '../screens/Ranking'
+
+const Tab = createBottomTabNavigator();
+
+export const Home = ({navigation}) => {
   return (
-    <SafeAreaView style={styles.search}>
-      <ScrollView>
-      <View>
-      <Button title= 'Search' onPress={()=> navigation.navigate('Search')}></Button>
-      <Button title = 'Profile' onPress={()=> navigation.navigate('Profile')}></Button>
-      <Button title = 'View Rankings' onPress={()=> navigation.navigate('Ranking')}></Button>
-      </View>
-
-
-      </ScrollView>
-
-    
-    </SafeAreaView>
-
-  );
-};
+      <Tab.Navigator>
+          <Tab.Screen name="Search" component={ Search} />
+          <Tab.Screen name="Profile" component={ Profile } />
+          <Tab.Screen name="View Rankings" component={ Rankings } />
+      </Tab.Navigator>
+  )
+}
 
 const styles = StyleSheet.create({
   container: {        

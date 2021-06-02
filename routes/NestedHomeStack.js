@@ -9,17 +9,19 @@ import Profile from '../screens/Profile'
 import Ranking from '../screens/Ranking'
 
 const screens = {
-    Home: {
-        screen: Home
-    },
-    Login: {
-        screen: Login
-    },
-    
-    NestedHome: {
-        screen: NestedHome
-    },
 
+    BottomTabHandler: {
+        screen: BottomTabHandler
+    },
+    Profile: {
+        screen: Profile
+    },
+    Search: {
+        screen: Search
+    },
+    Ranking: {
+        screen: Ranking
+    }
 }
 
 const HomeStack = createStackNavigator(screens);
