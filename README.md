@@ -110,18 +110,18 @@ Tech Stack
 8. Firebase
 9. ReactNative
  
+Setting up
+Clone this repository
 
-Qualifications
+git clone https://github.com/brennanleez-coder/FITECLUB.git
 
-Wen Ting:
-R-Programming
-Java
-Python
-SQL
+npm install
+or if you are have yarn
 
-Brennan:
-Java
-Python
+yarn install
+Run the project on expo
+
+npm start
 
 
 
