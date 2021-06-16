@@ -35,7 +35,7 @@ const SigninScreen = ({navigation})=>{
                 <Text style={{ color: 'red' }}>{error}</Text>
                 : null
         }
-        <Button title="SignIn" onPress={() => signIn()} />
+        <Button title="Sign In" onPress={() => signIn()} />
         <TouchableOpacity onPress={() => navigation.navigate('SignUp')}>
             <Text>Don't have an account? Sign Up</Text>
         </TouchableOpacity>
