@@ -1,15 +1,15 @@
 import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
-import Home from '../screens/Home';
-import Login from '../screens/Login';
+import SignUp from '../screens/Signup';
+import SignIn from '../screens/SignIn';
 import NestedHome from '../screens/NestedHome'
 
 const screens = {
-    Home: {
-        screen: Home
+    SignUp: {
+        screen: SignUp
     },
-    Login: {
-        screen: Login
+    SignIn: {
+        screen: SignIn
     },
     
     NestedHome: {
