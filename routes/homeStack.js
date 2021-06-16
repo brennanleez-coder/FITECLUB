@@ -1,7 +1,7 @@
 import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
-import SignUp from '../screens/Signup';
-import SignIn from '../screens/SignIn';
+import SignUp from '/Users/brennanlee/Documents/GitHub/FITECLUB/screens/SignUp.js';
+import SignIn from '/Users/brennanlee/Documents/GitHub/FITECLUB/screens/SignIn.js';
 import NestedHome from '../screens/NestedHome'
 
 const screens = {
