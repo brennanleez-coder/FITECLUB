@@ -10,7 +10,7 @@ const Home = ({navigation}) => (
         </ImageBackground>
         
     <View>
-    <Button onPress={()=> navigation.navigate("Login")} title= 'Tap to continue'></Button>
+    <Button onPress={()=> navigation.navigate("SignUp")} title= 'Tap to continue'></Button>
     </View>
   </SafeAreaView>
 );
