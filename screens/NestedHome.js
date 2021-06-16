@@ -6,7 +6,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Profile from '../screens/Profile'
 import Search from '../screens/Search'
 import Rankings from '../screens/Ranking'
-import Explore from '/Users/brennanlee/Documents/GitHub/FITECLUB/screens/Explore.js'
+import Explore from '../screens/Explore.js'
 import FAQ from '../screens/Faq'
 
 
