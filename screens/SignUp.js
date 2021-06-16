@@ -15,7 +15,6 @@ const SignupScreen = ({ navigation }) => {
         } catch (err) {
             setError(err.message);
         }
-
     }
     return <>
         <Input
@@ -35,7 +34,7 @@ const SignupScreen = ({ navigation }) => {
                 : null
         }
         <Button title="SignUp" onPress={() => signUp()} />
-        <TouchableOpacity onPress={() => navigation.navigate('Signin')}>
+        <TouchableOpacity onPress={() => navigation.navigate('SignIn')}>
             <Text>Already have an account? Sign In</Text>
         </TouchableOpacity>
     </>

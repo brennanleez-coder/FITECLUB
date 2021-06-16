@@ -12,7 +12,7 @@ const SigninScreen = ({navigation})=>{
     const signIn = async () => {
         try {
             const response = await firebase.auth().signInWithEmailAndPassword(email, password);
-            navigation.navigate('Home');
+            navigation.navigate('NestedHome');
         } catch (err) {
             setError(err.message);
         }
@@ -36,7 +36,7 @@ const SigninScreen = ({navigation})=>{
                 : null
         }
         <Button title="SignIn" onPress={() => signIn()} />
-        <TouchableOpacity onPress={() => navigation.navigate('NestedHome')}>
+        <TouchableOpacity onPress={() => navigation.navigate('SignUp')}>
             <Text>Don't have an account? Sign Up</Text>
         </TouchableOpacity>
     </>
