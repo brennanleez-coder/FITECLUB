@@ -16,7 +16,7 @@ const SigninScreen = ({navigation})=>{
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const [hidePassword, setHidePassword] = useState(true);
-    
+     
     const signIn = async () => {
         try {
             const response = await firebase.auth().signInWithEmailAndPassword(email, password);
