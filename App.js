@@ -9,7 +9,7 @@ import Homestack from './routes/homeStack';
 const MyStack = () => {
   return (
     <>
-    <NavigationContainer>
+    <NavigationContainer >
       <Homestack/>
     </NavigationContainer>
     
