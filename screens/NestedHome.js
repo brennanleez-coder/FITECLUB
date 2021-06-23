@@ -36,16 +36,23 @@ const Home = ({navigation}) => {
                                 <MaterialCommunityIcons name="magnify" color={color} size={26} />
                             ),
                         }}/>
+        <Tab.Screen name="Rankings" component={ Rankings } 
+                        options={{
+                            tabBarIcon: ({ color, size }) => (
+                                <MaterialCommunityIcons name="star-circle" color={color} size={26} />
+                            ),
+                        }}/>
+        <Tab.Screen name="FAQ" component={ FAQ } 
+                        options={{
+                            tabBarIcon: ({ color, size }) => (
+                                <MaterialCommunityIcons name="message-processing" color={color} size={26} />
+                            ),
+                        }}/>
+        
         <Tab.Screen name="Profile" component={ Profile } 
                         options={{
                             tabBarIcon: ({ color, size }) => (
                                 <MaterialCommunityIcons name="account-circle" color={color} size={26} />
-                            ),
-                        }}/>
-        <Tab.Screen name="View Rankings" component={ Rankings } 
-                        options={{
-                            tabBarIcon: ({ color, size }) => (
-                                <MaterialCommunityIcons name="star-circle" color={color} size={26} />
                             ),
                         }}/>
       </Tab.Navigator>
