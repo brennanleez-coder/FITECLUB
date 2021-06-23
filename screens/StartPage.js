@@ -9,9 +9,20 @@ const Home = ({navigation}) => (
             source={require('../assets/HomePage.png')} style={styles.image}>
         </ImageBackground>
         
-    <View>
-    <Button onPress={()=> navigation.navigate("SignUp")} title= 'Tap to continue'></Button>
-    </View>
+        <View style={styles.button}>
+            <View style={styles.buttonStyle}>
+            <Button 
+                title="Sign Up"
+                onPress={() => navigation.navigate("SignUp")} />
+                </View>
+            
+            <View style={{ flexDirection:"row" }}>
+            <Button
+                title="Sign In"
+                onPress={() => navigation.navigate("SignIn")} />
+                </View>
+            </View>
+        
   </SafeAreaView>
 );
 
@@ -26,6 +37,17 @@ const styles = StyleSheet.create({
     resizeMode: "cover",
     justifyContent: "center"
   },
+  button: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+  
+  },
+  buttonStyle: {
+    marginHorizontal: 20,
+    marginTop: 5,
+    justifyContent: "center",
+   
+  }
 });
 
 export default Home
