@@ -16,15 +16,13 @@ const Home = ({navigation}) => (
                 title="Sign Up"
                 color="white"
                 onPress={() => navigation.navigate("SignUp")} />
-               
-            <View style={{ flexDirection:"row" }}>
+
             <Button
                 title="Sign In"
                 color="white"
                 onPress={() => navigation.navigate("SignIn")} />
                 </View>
-            </View>
-        
+            
   </SafeAreaView>
 );
 
@@ -36,10 +34,9 @@ const styles = StyleSheet.create({
   },
   image: {
     flex: 1,
-    resizeMode: "cover",
-    justifyContent: "center"
   },
   button: {
+   
     flexDirection: 'row',
     justifyContent: 'space-around',
     backgroundColor: "black",
@@ -52,10 +49,6 @@ const styles = StyleSheet.create({
     borderWidth: 1,
   
   },
-  buttonStyle: { 
-    justifyContent: "center",
-   
-  }
 });
 
 export default Home
