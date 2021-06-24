@@ -9,16 +9,18 @@ const Home = ({navigation}) => (
             source={require('../assets/HomePage.png')} style={styles.image}>
         </ImageBackground>
         
+
         <View style={styles.button}>
-            <View style={styles.buttonStyle}>
+            
             <Button 
                 title="Sign Up"
+                color="white"
                 onPress={() => navigation.navigate("SignUp")} />
-                </View>
-            
+               
             <View style={{ flexDirection:"row" }}>
             <Button
                 title="Sign In"
+                color="white"
                 onPress={() => navigation.navigate("SignIn")} />
                 </View>
             </View>
@@ -40,11 +42,17 @@ const styles = StyleSheet.create({
   button: {
     flexDirection: 'row',
     justifyContent: 'space-around',
+    backgroundColor: "black",
+    marginRight:40,
+    marginLeft:40,
+   marginTop:10,
+    paddingTop:10,
+    paddingBottom:10,
+    borderRadius:10,
+    borderWidth: 1,
   
   },
-  buttonStyle: {
-    marginHorizontal: 20,
-    marginTop: 5,
+  buttonStyle: { 
     justifyContent: "center",
    
   }
