@@ -31,8 +31,6 @@ const SignupScreen = ({ navigation }) => {
         <Input
         label="Password"
         placeholder="Type your password here"
-        value={password}
-        onChangeText={setPassword}
 
         />
         <Input
@@ -42,6 +40,8 @@ const SignupScreen = ({ navigation }) => {
           confirmPasswordsMatch(e.nativeEvent.text, password);
         }}
 
+        value={password}
+        onChangeText={setPassword}
         />
         {
             error ?
