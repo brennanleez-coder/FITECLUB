@@ -1,7 +1,13 @@
 import React, { useState } from 'react';
 import { TouchableOpacity } from 'react-native';
-import { Button, Input, Text } from 'react-native-elements';
+import { Button, Input, Text, TextInput, View} from 'react-native-elements';
 import firebase from '../firebase/fire';
+
+function confirmPasswordsMatch(confirmationPassword, originalPassword) {
+    if (confirmationPassword !== originalPassword) {
+      alert('Passwords do not match, please try again.');
+    }
+}
 
 const SignupScreen = ({ navigation }) => {
     const [email, setEmail] = useState('');
@@ -23,10 +29,19 @@ const SignupScreen = ({ navigation }) => {
             onChangeText={setEmail}
         />
         <Input
-            label="Password"
-            value={password}
-            onChangeText={setPassword}
-            secureTextEntry
+        label="Password"
+        placeholder="Type your password here"
+        value={password}
+        onChangeText={setPassword}
+
+        />
+        <Input
+        label="Confirm password"
+        placeholder="Re-type your password here"
+        onSubmitEditing={(e) => {
+          confirmPasswordsMatch(e.nativeEvent.text, password);
+        }}
+
         />
         {
             error ?
