@@ -6,7 +6,7 @@ import SignIn from '../screens/SignIn'
 import NestedHome from '../screens/NestedHome'
 
 const screens = {
-    StartPage: {
+    "WELCOME TO FITE CLUB": {
         screen: StartPage
     },
     
