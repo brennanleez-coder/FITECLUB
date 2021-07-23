@@ -11,7 +11,7 @@ import Search from '../screens/Search'
 import Rankings from '../screens/Ranking'
 import Explore from '../screens/Explore.js'
 import FAQ from '../screens/Faq'
-import heatmap from '../screens/heatmap'
+import ToDoList from '../screens/ToDoList'
 const Tab = createMaterialBottomTabNavigator();
 //allow app to run without any issues
 const EmptyScreen = () => {
@@ -46,6 +46,12 @@ const Home = ({navigation}) => {
                         options={{
                             tabBarIcon: ({ color, size }) => (
                                 <MaterialCommunityIcons name="message-processing" color={color} size={26} />
+                            ),
+                        }}/>
+        <Tab.Screen name="ToDoList" component={ ToDoList } 
+                        options={{
+                            tabBarIcon: ({ color, size }) => (
+                                <MaterialCommunityIcons name="format-list-bulleted" color={color} size={26} />
                             ),
                         }}/>
         
