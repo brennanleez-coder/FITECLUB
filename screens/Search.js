@@ -20,14 +20,14 @@ const data=[
   
 ];
 class FlatListWithSearch extends Component {
-    constructor(){
+    constructor(props){
         super()
         this.state={
             data:data,
             search:""
         }
     }
-  showItem=(data)=>{
+  showItem=(props,data)=>{
     Alert.alert(data);
   }
 
