@@ -11,7 +11,7 @@ import Search from '../screens/Search'
 import Rankings from '../screens/Ranking'
 import Explore from '../screens/Explore.js'
 import FAQ from '../screens/Faq'
-
+import heatmap from '../screens/heatmap'
 const Tab = createMaterialBottomTabNavigator();
 //allow app to run without any issues
 const EmptyScreen = () => {
@@ -55,6 +55,7 @@ const Home = ({navigation}) => {
                                 <MaterialCommunityIcons name="account-circle" color={color} size={26} />
                             ),
                         }}/>
+        
       </Tab.Navigator>
       
       
