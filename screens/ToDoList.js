@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { View, StatusBar, FlatList } from "react-native";
 import styled from "styled-components";
-import AddInput from "../screens/AddInput";
+import AddInput from "../screens/ToDoListAddInput";
 import TodoList from "../screens/ToDoListThings";
 import Font from "expo-font";
 import AppLoading from "expo-app-loading";
-import Empty from "../screens/Empty";
-import Header from '../screens/Header'
+import Empty from "../screens/ToDoListEmpty";
+import Header from '../screens/ToDoListHeader'
 
 const getFonts = () =>
   Font.loadAsync({
