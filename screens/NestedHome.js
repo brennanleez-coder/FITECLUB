@@ -11,7 +11,7 @@ import Search from '../screens/Search'
 import Rankings from '../screens/Ranking'
 import Explore from '../screens/Explore.js'
 import FAQ from '../screens/Faq'
-import ToDo from '../screens/ToDo'
+import ToDoList from '../screens/ToDoList'
 
 const Tab = createMaterialBottomTabNavigator();
 //allow app to run without any issues
@@ -49,7 +49,7 @@ const Home = ({navigation}) => {
                                 <MaterialCommunityIcons name="message-processing" color={color} size={26} />
                             ),
                         }}/>
-        <Tab.Screen name="ToDo" component={ ToDo } 
+        <Tab.Screen name="ToDoList" component={ ToDoList } 
                         options={{
                             tabBarIcon: ({ color, size }) => (
                                 <MaterialCommunityIcons name="format-list-bulleted" color={color} size={26} />
