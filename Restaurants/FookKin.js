@@ -11,7 +11,7 @@ import {
     ScrollView
 } from 'react-native';
 
-export default class BurntEnds extends Component {
+export default class FookKin extends Component {
 
     constructor(props) {
       super(props);
@@ -93,7 +93,7 @@ export default class BurntEnds extends Component {
                 <Text style={styles.cardTitle}>Crowd Level</Text>
               </View>
               <View style={styles.cardContent}>
-              <Text style={styles.shareButtonText}>Ratings: 4.2/5</Text>
+              <Text style={styles.shareButtonText}>Ratings: 4.1/5</Text>
                 <Text style={styles.description}>Morning : Low, Afternoon: High, Evening: Medium</Text>
               </View>
             </View>

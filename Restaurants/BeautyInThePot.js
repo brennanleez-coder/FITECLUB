@@ -11,7 +11,7 @@ import {
     ScrollView
 } from 'react-native';
 
-export default class KohGrill extends Component {
+export default class BeautyInThePot extends Component {
 
     constructor(props) {
       super(props);
@@ -93,7 +93,7 @@ export default class KohGrill extends Component {
                 <Text style={styles.cardTitle}>Crowd Level</Text>
               </View>
               <View style={styles.cardContent}>
-              <Text style={styles.shareButtonText}>Ratings: 5/5</Text>
+              <Text style={styles.shareButtonText}>Ratings: 4.8/5</Text>
                 <Text style={styles.description}>Morning : Low, Afternoon: High, Evening: Medium</Text>
               </View>
             </View>

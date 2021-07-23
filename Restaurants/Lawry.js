@@ -11,7 +11,7 @@ import {
     ScrollView
 } from 'react-native';
 
-export default class KohGrill extends Component {
+export default class Lawry extends Component {
 
     constructor(props) {
       super(props);
@@ -19,8 +19,8 @@ export default class KohGrill extends Component {
         modalVisible:false,
         userSelected:[],
         product: {
-          name:"Koh Grill",
-          description:"Koh Grill & Sushi Bar needs no introduction especially for Japanese food fans in Singapore. It's fun and cheerful place to enjoy delicious sushi and Japanese style grills at wallet friendly(not cheap) prices. They are most famous for their Shiok Maki",
+          name:"Lawry",
+          description:"Lawry’s main attraction: The renowned Signature USDA Prime Rib of Beef is aged up to 21 days to enhance flavour and tenderness. Our beef is slowly roasted on beds of rock salt, carved and served from our “Silver Carts” with Yorkshire Pudding.",
           created:"",
           images:[
             "https://1.bp.blogspot.com/-5BQS1S1CimY/YBpG2BrVaNI/AAAAAAAEmx8/guXbeFK9cUcspPzUIfVAOlOXdHbr80CLgCLcBGAsYHQ/s2048/Koh%2BGrill%2B5.jpg", 
@@ -93,7 +93,7 @@ export default class KohGrill extends Component {
                 <Text style={styles.cardTitle}>Crowd Level</Text>
               </View>
               <View style={styles.cardContent}>
-              <Text style={styles.shareButtonText}>Ratings: 5/5</Text>
+              <Text style={styles.shareButtonText}>Ratings: 4.5/5</Text>
                 <Text style={styles.description}>Morning : Low, Afternoon: High, Evening: Medium</Text>
               </View>
             </View>
