@@ -1,11 +1,5 @@
 import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
-import StartPage from '../screens/StartPage'
-import SignUp from '../screens/SignUp'
-import SignIn from '../screens/SignIn'
-import NestedHome from '../screens/NestedHome'
-
-
 
 import AlterEgo from '../Restaurants/AlterEgo'
 import BeautyInThePot from '../Restaurants/BeautyInThePot'
@@ -20,11 +14,7 @@ import ThreeMealsADay from '../Restaurants/ThreeMealsADAy'
 import TwoManBagelHouse from '../Restaurants/TwoManBagelHouse'
 import RestaurantList from '../screens/RestaurantListWithButtons'
 
-
 const screens = {
-    "WELCOME TO FITE CLUB": {
-        screen: StartPage
-    },
     "RestaurantList": {
         screen: RestaurantList
     },
@@ -60,21 +50,10 @@ const screens = {
     TwoManBagelHouse: {
         screen: TwoManBagelHouse
     },
-    
-    SignUp: {
-        screen: SignUp
-    },
-    SignIn: {
-        screen: SignIn
-    },
-    
-    NestedHome: {
-        screen: NestedHome
-    },
 
 }
 
-const HomeStack = createStackNavigator(screens);
+const RestaurantStack = createStackNavigator(screens);
 
 
-export default createAppContainer(HomeStack);
+export default createAppContainer(RestaurantStack);

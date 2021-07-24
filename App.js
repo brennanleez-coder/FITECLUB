@@ -11,8 +11,8 @@ const MyStack = () => {
     <>
     <NavigationContainer >
       <Homestack/>
+      
     </NavigationContainer>
-    
     </>
   );
 };

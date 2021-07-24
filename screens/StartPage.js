@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { ImageBackground,
     StyleSheet, Button, View, SafeAreaView, Text, Alert, Image } from 'react-native';
 
+import RestaurantList from '../screens/RestaurantListWithButtons'
+
 
 const Home = ({navigation}) => (
   <SafeAreaView style={styles.container}>
@@ -11,7 +13,10 @@ const Home = ({navigation}) => (
         
 
         <View style={styles.button}>
-            
+                <Button 
+                title="List Of Restaurants"
+                color="white"
+                onPress={() => navigation.navigate("RestaurantList")} />
             <Button 
                 title="Sign Up"
                 color="white"

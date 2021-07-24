@@ -12,7 +12,8 @@ import Rankings from '../screens/Ranking'
 import Explore from '../screens/Explore.js'
 import FAQ from '../screens/Faq'
 import ToDoList from '../screens/ToDoList'
-import KohGrill from'../Restaurants/KohGrill'
+import RestaurantList from '../screens/RestaurantList';
+import RestaurantStack from '../routes/RestaurantStack';
 
 const Tab = createMaterialBottomTabNavigator();
 //allow app to run without any issues
@@ -63,12 +64,7 @@ const Home = ({navigation}) => {
                                 <MaterialCommunityIcons name="account-circle" color={color} size={26} />
                             ),
                         }}/>
-         <Tab.Screen name="KohGrill" component={ KohGrill } 
-                        options={{
-                            tabBarIcon: ({ color, size }) => (
-                                <MaterialCommunityIcons name="account-circle" color={color} size={26} />
-                            ),
-                        }}/>                
+             
         
       </Tab.Navigator>
       
