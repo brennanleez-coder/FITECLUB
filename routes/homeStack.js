@@ -57,6 +57,9 @@ const screens = {
     ThreeMealsADay: {
         screen: ThreeMealsADay
     },
+    KohGrill: {
+        screen: KohGrill
+    },
     TwoManBagelHouse: {
         screen: TwoManBagelHouse
     },

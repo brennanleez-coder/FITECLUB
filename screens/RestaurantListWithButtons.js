@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { ScrollView } from 'react-native';
 import { ImageBackground,
     StyleSheet, Button, View, SafeAreaView, Text, Alert, Image } from 'react-native';
 import AlterEgo from '../Restaurants/AlterEgo'
@@ -13,22 +14,20 @@ import Lawry from '../Restaurants/Lawry'
 import ThreeMealsADay from '../Restaurants/ThreeMealsADAy'
 import TwoManBagelHouse from '../Restaurants/TwoManBagelHouse'
 
-
-
-
+const bg = { uri: "https://www.google.com/url?sa=i&url=https%3A%2F%2Farchziner.com%2Flifestyle%2Frebellious-cool-wallpapers-for-boys%2F&psig=AOvVaw17ymZHspJ20UhRlwwZNLxW&ust=1627232953096000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIiwsaWZ_PECFQAAAAAdAAAAABAD"};
 
 const Home = ({navigation}) => (
-  <SafeAreaView style={{flex:1,
+    
+  <SafeAreaView style={{flex:2,
     flexDirection:'row',
-    alignItems:'center',
+ 
+    //backgroundColor: "lightcyan",
     justifyContent:'center',}}>
-     <ImageBackground 
-            source={require('../assets/HomePage.png')} style={styles.image}>
-        </ImageBackground>
-        
-
+    
+    <ImageBackground 
+            source={require('../assets/bgimage.png')} style={styles.image}>
         <View style={styles.button}>
-            
+
             <Button 
                 title="AlterEgo"
                 color="black"
@@ -77,6 +76,7 @@ const Home = ({navigation}) => (
                 onPress={() => navigation.navigate("TwoManBagelHouse")} />
                 </View>
             
+        </ImageBackground>
   </SafeAreaView>
 );
 
@@ -88,6 +88,20 @@ const styles = StyleSheet.create({
   },
   image: {
     flex: 1,
+  },
+  button: {
+   
+    flexDirection: 'column',
+    justifyContent: 'space-around',
+    backgroundColor: "white",
+    marginRight:80,
+    marginLeft:80,
+   marginTop:20,
+    paddingTop:5,
+    paddingBottom:5,
+    borderRadius:5,
+    borderWidth: 1,
+  
   },
   item:{
 

@@ -23,9 +23,9 @@ export default class HaiDiLao extends Component {
           description:"Haidilao is the largest hotpot chain in China which is widespread through spicy broths and special services. With the expanding of Haidilao, there are also many chain restaurants located overseas, such as London and New York. The annual revenue is estimated to be more than 10 billion yuan.",
           created:"",
           images:[
-            "https://1.bp.blogspot.com/-5BQS1S1CimY/YBpG2BrVaNI/AAAAAAAEmx8/guXbeFK9cUcspPzUIfVAOlOXdHbr80CLgCLcBGAsYHQ/s2048/Koh%2BGrill%2B5.jpg", 
-            "http://1.bp.blogspot.com/-C1zQ_Ml5AJs/ViT637ZbyWI/AAAAAAAASQU/g3G3BLQXuek/s1600/3.JPG",
-            "http://4.bp.blogspot.com/-zjAJq2CGyFc/ViT9OcgcKDI/AAAAAAAASQs/EgInS1Q3z1A/s1600/7.JPG"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQis5o3gbvXp6ixzkXT0joPbJiihx1SsRFp7g&usqp=CAU", 
+            "https://media-cdn.tripadvisor.com/media/photo-s/0d/87/83/34/hai-di-lao-the-best-hot.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM73cYTuw-FEKytgmNqj7SXyV_D3FzBD1m7fon3EUgjMBmGeB8EpWrKwhZkJxLp3tiBpE&usqp=CAU"
           ],
           colors:[
             "#00BFFF",
