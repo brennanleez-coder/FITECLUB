@@ -19,13 +19,13 @@ export default class TwoManBagelHouse extends Component {
         modalVisible:false,
         userSelected:[],
         product: {
-          name:"TwoManBagelHouse",
+          name:"Two Man Bagel House",
           description:"Locally owned bagel house slanging out wholesome torus shaped goodness since 2014 with outlets in Tanjong Pagar, Holland Village and Novena.",
           created:"",
           images:[
-            "https://1.bp.blogspot.com/-5BQS1S1CimY/YBpG2BrVaNI/AAAAAAAEmx8/guXbeFK9cUcspPzUIfVAOlOXdHbr80CLgCLcBGAsYHQ/s2048/Koh%2BGrill%2B5.jpg", 
-            "http://1.bp.blogspot.com/-C1zQ_Ml5AJs/ViT637ZbyWI/AAAAAAAASQU/g3G3BLQXuek/s1600/3.JPG",
-            "http://4.bp.blogspot.com/-zjAJq2CGyFc/ViT9OcgcKDI/AAAAAAAASQs/EgInS1Q3z1A/s1600/7.JPG"
+            "https://i1.wp.com/singaporefoodie.com/wp-content/uploads/2020/02/66310628_335382867365875_3285171643860666457_n.jpg?resize=708%2C708&ssl=1", 
+            "https://danielfooddiary.com/wp-content/uploads/2020/03/twomenbagelhouse1.jpg",
+            "https://gninethree.files.wordpress.com/2020/03/658f55c3-ccae-4426-964b-a0989e032744.jpg"
           ],
           colors:[
             "#00BFFF",

@@ -19,13 +19,13 @@ export default class FookKin extends Component {
         modalVisible:false,
         userSelected:[],
         product: {
-          name:"Koh Grill",
-          description:"Koh Grill & Sushi Bar needs no introduction especially for Japanese food fans in Singapore. It's fun and cheerful place to enjoy delicious sushi and Japanese style grills at wallet friendly(not cheap) prices. They are most famous for their Shiok Maki",
+          name:"FookKin",
+          description:"Fook Kin offers a rather unconventional salted egg yolk snack. Their Golden Lotus Roots Crisps (S$7.80++) comes with perfectly deep-fried lotus roots drizzled with their in-house salted egg yolk sauce.",
           created:"",
           images:[
-            "https://1.bp.blogspot.com/-5BQS1S1CimY/YBpG2BrVaNI/AAAAAAAEmx8/guXbeFK9cUcspPzUIfVAOlOXdHbr80CLgCLcBGAsYHQ/s2048/Koh%2BGrill%2B5.jpg", 
-            "http://1.bp.blogspot.com/-C1zQ_Ml5AJs/ViT637ZbyWI/AAAAAAAASQU/g3G3BLQXuek/s1600/3.JPG",
-            "http://4.bp.blogspot.com/-zjAJq2CGyFc/ViT9OcgcKDI/AAAAAAAASQs/EgInS1Q3z1A/s1600/7.JPG"
+            "https://qul.imgix.net/c817c632-2564-4f0d-9318-92e48cf08f7f/403658_sld.jpg", 
+            "https://qul.imgix.net/c817c632-2564-4f0d-9318-92e48cf08f7f/390674_sld.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1gKiWRfvRWs3FuK0LaDm8Ykxx_HW0OxQBag&usqp=CAU"
           ],
           colors:[
             "#00BFFF",

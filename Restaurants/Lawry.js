@@ -23,9 +23,9 @@ export default class Lawry extends Component {
           description:"Lawry’s main attraction: The renowned Signature USDA Prime Rib of Beef is aged up to 21 days to enhance flavour and tenderness. Our beef is slowly roasted on beds of rock salt, carved and served from our “Silver Carts” with Yorkshire Pudding.",
           created:"",
           images:[
-            "https://1.bp.blogspot.com/-5BQS1S1CimY/YBpG2BrVaNI/AAAAAAAEmx8/guXbeFK9cUcspPzUIfVAOlOXdHbr80CLgCLcBGAsYHQ/s2048/Koh%2BGrill%2B5.jpg", 
-            "http://1.bp.blogspot.com/-C1zQ_Ml5AJs/ViT637ZbyWI/AAAAAAAASQU/g3G3BLQXuek/s1600/3.JPG",
-            "http://4.bp.blogspot.com/-zjAJq2CGyFc/ViT9OcgcKDI/AAAAAAAASQs/EgInS1Q3z1A/s1600/7.JPG"
+            "https://qul.imgix.net/d30b4c96-ae81-49ea-8b74-2ed4ce7b6f92/509141_sld.jpg", 
+            "https://weekender.com.sg/entertainment/wp-content/uploads/2018/11/Thanksgiving-Turkey-Prime-Combo-670x385.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAU91qA55cleC6D6TPwy53xeZV3KGcywbRYw&usqp=CAU"
           ],
           colors:[
             "#00BFFF",

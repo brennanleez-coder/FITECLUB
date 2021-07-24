@@ -23,9 +23,9 @@ export default class ThreeMealsADay extends Component {
           description:"Three Meals A Day is a popular Korean reality cooking show, and also the name of an under-the-radar Korean restaurant at Chun Tin Road (5 minutes walk from Beauty World). The Korean family restaurant may not have much social media presence, but was almost full-house during a weekday dinner.",
           created:"",
           images:[
-            "https://1.bp.blogspot.com/-5BQS1S1CimY/YBpG2BrVaNI/AAAAAAAEmx8/guXbeFK9cUcspPzUIfVAOlOXdHbr80CLgCLcBGAsYHQ/s2048/Koh%2BGrill%2B5.jpg", 
-            "http://1.bp.blogspot.com/-C1zQ_Ml5AJs/ViT637ZbyWI/AAAAAAAASQU/g3G3BLQXuek/s1600/3.JPG",
-            "http://4.bp.blogspot.com/-zjAJq2CGyFc/ViT9OcgcKDI/AAAAAAAASQs/EgInS1Q3z1A/s1600/7.JPG"
+            "https://burpple-1.imgix.net/foods/638b8913d5d119f8e8a1869789_original.?w=400&h=400&fit=crop&q=80&auto=format", 
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuou608s384eVYIomILpsQc9rvKhYTD620Tg&usqp=CAU",
+            "https://burpple-3.imgix.net/foods/447f8d328f709f6cb841336439_original.?w=645&dpr=1&fit=crop&q=80&auto=format"
           ],
           colors:[
             "#00BFFF",

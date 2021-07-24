@@ -19,13 +19,13 @@ export default class AlterEgo extends Component {
         modalVisible:false,
         userSelected:[],
         product: {
-          name:"Koh Grill",
-          description:"Koh Grill & Sushi Bar needs no introduction especially for Japanese food fans in Singapore. It's fun and cheerful place to enjoy delicious sushi and Japanese style grills at wallet friendly(not cheap) prices. They are most famous for their Shiok Maki",
+          name:"Alter Ego",
+          description:"Alter Ego is, as its name suggests, the darker side of A Poke Theory. While both joints serve healthy poke bowls, Alter Ego also offers indulgent grub like their signature pizza fries ($14) – thick-cut fries topped with smoked pepperoni, three-cheese sauce and a helping of house-made bacon ketchup. Other notable bites include their southern fried chicken skin ($7) and rendang grilled cheese ($16).",
           created:"",
           images:[
-            "https://1.bp.blogspot.com/-5BQS1S1CimY/YBpG2BrVaNI/AAAAAAAEmx8/guXbeFK9cUcspPzUIfVAOlOXdHbr80CLgCLcBGAsYHQ/s2048/Koh%2BGrill%2B5.jpg", 
-            "http://1.bp.blogspot.com/-C1zQ_Ml5AJs/ViT637ZbyWI/AAAAAAAASQU/g3G3BLQXuek/s1600/3.JPG",
-            "http://4.bp.blogspot.com/-zjAJq2CGyFc/ViT9OcgcKDI/AAAAAAAASQs/EgInS1Q3z1A/s1600/7.JPG"
+            "https://qul.imgix.net/b7ae5591-89aa-4f49-8718-1ced4681c0b4/313401_sld.jpg", 
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREhRXLWJRvumrKSg_ZsGj1p2YYrgnmb1R-xUqIVXDnAvUwSAhSDHJRkscQGrVNwYX5uHs&usqp=CAU",
+            "https://media.timeout.com/images/105457751/630/472/image.jpg"
           ],
           colors:[
             "#00BFFF",
