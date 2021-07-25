@@ -1,0 +1,414 @@
+Since pictures cannot be viewed here, please head to this link for the full version
+https://docs.google.com/document/d/1I71uIwihLBt81Ex5Orvi7ozkl5cY7nqWx-ejn-vmrCs/edit?usp=sharing
+
+
+
+Proposed Level of Achievement: Apollo 11 
+Motivation 
+
+Tired of asking your friends or Google where to eat and getting anything as an answer? Excited to go to a certain restaurant but only to find out that it is fully packed? Craving a certain cuisine but cannot find your desired search results?
+
+Many foodies have reached the point where online searches give them repetitive results and eventually choose to eat something that they are not satisfied with. Additionally, they have to make multiple searches in order to get all the answers that they want. So why isn’t there an application that can help provide all the answers in one search without having to waste time doing multiple separate searches. 
+Aim 
+Our team hopes to expedite the process of finding an eatery where it matches the user’s food craving for the day. Food reviews by other users can also be accessed to further provide an accurate experience at the eatery. 
+User Stories: 
+ 
+As the developer, I would want to be able to receive user feedback and regularly update my application and make it compatible with various devices.
+As a hangry(hungry + angry) individual, I would want to eat at a place where it satisfies all my cravings. 
+As a busy-individual with no time to waste before his/her next appointment, I would want to go to the nearest eatery that is able take my reservation and satisfy cravings at the same time.
+As an eatery owner, I want to be able to provide the stock availability in my restaurants during different times of the day and to see my ranking and reviews make appropriate improvements to my service.
+As a reviewer, I want to be able to rate the food and subsequently provide food recommendations for other users.
+
+Progress of Project: 
+A mobile application that has search, reservation, feedback, recommendation functionalities.  
+
+Inspiration for App Design
+Everything we based our app on was from our Figma prototype that we have done up. However since our team is very new with designing and stylesheet creation. The actual UI did not look as nice and clean as per the Figma Prototype. This will be our last priority nonetheless and will keep it simple, prioritising functionality first.
+
+Features that were successfully completed:
+ 
+1.	Search function with mock data completed, Will explore integrating it with firestore to have a main database of information
+2.	Bottom tab navigation UI on nested home page for a cleaner view instead of stacking on newer pages (Allows for easier navigation)
+3. Frequently Asked Questions Page (Filled with typical questions, has 2 views, single window dropdown and multiple window dropdown option)
+4. Firebase integrated with Login Form (Included Confirm Password field)
+5. Updated Home Page with Sign in and Sign Up Button
+Ranking Page Using Mock Data (Will explore integrating it with firestore to have a main database of information)
+Updated Bottom Tab Navigator with Theme
+
+Features that will be pushed back:
+Make-A-Reservation Using a Calendar View
+Feedback Portal for consumers
+To Eat List
+Side Drawer to declutter Bottom Tab Navigator and pushing ToEatList function as well as profile and logout function
+
+Problems we faced:
+
+Embarrassingly, we had many merge branch conflicts. This was a result of lack of communication on the roles and responsibilities. The result of this inadequate planning was that one of us was modifying files that the other had deleted and redid the implementation on another file. 
+Clueless about mock data, took a lot of tutorials that talked about different ways to do mock data till we got confused. Eventually,we managed to store it in an array and just get the information from the same .js file. 
+Definitely drawing information from firestore is more convenient but that requires another steep learning curve that we have yet to conquer to fetch data from our firestore database. The firestore database we have is currently filled with data and just waiting to be fetched.
+Regarding the ranking page, we initially had trouble presenting the restaurants in terms of decreasing order of ranking. However, we managed to circumvent that after watching numerous tutorials.
+Initially, the FAQ page we implemented kept having a callback error. This was extremely challenging for us to debug as we did not know which  line of code was causing the error. However, after watching multiple online tutorials, we realised that the code only worked for IOS simulators and not for Android.
+We expect to face issues when passing props and information from one page to another and thus have not been able to integrate everything together yet as a whole. This was another steep learning curve we have yet to conquer.
+Stack Navigation upon adding more components complicated the application so we had to make it cleaner and redo it
+Bottom Tab navigation become messy and thus had to clean that up too. Lesson learn is that to always practice abstraction especially for navigation stacks.
+
+User Guide
+User Guide
+
+Github Version Control
+To be able to work on the project concurrently, GITHUB Desktop was utilised to maintain version controls.
+Installation and cloning of Github Repository
+*Demo shown below was done on a Macbook
+Install Github Desktop(available for Mac and Windows), https://desktop.github.com/
+Proceed to your Github Account -> My repositories -> FITECLUB -> Code(Button in Green as shown below) 
+Copy this link and open Github Desktop
+Link: git@github.com:brennanleez-coder/FITECLUB.git
+
+For Mac Users, press Command Shift O to clone a repository and this screen would appear
+ 
+Click on URL and copy the pasted link from step 3 into the url field and clone
+Steps to take before working on the next feature:
+Things to note:
+Never make changes from the main branch, do not be complacent.
+Always make sure all commits are pushed before making a new branch to avoid version incompatibilities
+Test the new branch code and main branch code separately before merging together
+1. 30 minutes short meeting via zoom to deconflict the features that are being worked on. This is to prevent us from working on the same file and making different changes
+2. Always fetch from origin to ensure you are working on your partner’s progress.
+Fetch Origin button can be found at the topbar of the application as shown below
+
+3. Create a new branch and name it the feature you are implementing or the changes you are going to make. For example, integrating firebase.
+Click on Current Branch
+
+Create a new branch and name it
+
+Check if your current branch is your new branch you just created
+
+4. View all changes at the side of github desktop as shown below
+ 
+5. Commit once confirmed and subsequently publish branch(which will automatically push to github) at the top right
+6. Repeat steps 1 to 5 for every new feature being made
+
+
+Improvements / Changes after Peer Evaluation
+
+After getting feedback from our peers and advisors, below are the changes that we made during each milestone
+
+MILESTONE 1
+README/Poster/Video
+Included more information in the video
+Edited the video to remove the initial still frame due to editing error
+Included our FIGMA mock design of the app in the video 
+Application
+Incorporated backend for user login/sign up
+
+MILESTONE 2
+README/Poster/Video
+Included the logged hours back from Milestone 1 
+Added in more details into README such as a UI/UX flow diagram
+Included development plan, design diagrams for clearer visualisation of progress
+Included testing plans 
+
+Application
+Sent out surveys to friends and family members who are not part of the development team to gather constructive feedback regarding our app’s user interface /design/system. 
+Included more detailed descriptions on the features implemented (eg. Included which screen the “To Eat List” feature would be appearing on)
+Removed the SignIn back button after signing in to enable users to be signed in automatically once they registered the account
+
+Software Testing
+
+Third Party User Testing
+Post Milestone 2 survey
+After milestone 2, our group needed more feedback in which we approached different groups of people ranging from relatives, fellow SoC students and even students from other faculties and lastly to those who have no background in coding.
+Our group used a ORR(Observation, Results, Reflection) framework to make sense of the data. We also added in a Process portion to document how  it as carried out.
+
+Process:
+This was carried out through a google form and was sent to various whatsapp and telegram groups.
+
+In total, we garnered a total of 251 valid survey completions before closing this form. 
+
+There were mainly 2 questions, Which features did you find the most useful and giving this app a rating out of 5.
+
+Results:
+
+Distribution of the features on whether these third party users liked were quite equal in a sense no one feature dominated over the rest completely.
+
+44% of the participants gave us a 5/5 which felt really satisfying as this was our first time doing such a project. Following which 33.3% gave a 4/5 and the last 22.2% gave 3/5. 
+Reflection:
+Considering the fact that this is our group’s first exposure to software engineering using react native, the results were comforting and motivated us to do more.
+The lowest rating was a 3/5 which shows that there was still room for improvement
+
+
+Results are as shown below:
+
+
+
+
+
+
+
+App Flow
+
+Welcome Page
+Restaurant List
+Sign up Page
+Login Page/ 
+Home Page (Figma)
+
+
+
+
+
+FAQ
+Ranking
+Search Function
+
+
+Profile
+
+
+
+
+
+
+
+
+
+
+Video demonstration: 
+https://drive.google.com/file/d/1IjljhsmYrfCplkQ7Ebq_PbV6Bs31q69P/view?usp=sharing
+
+
+
+
+
+
+
+
+
+
+
+Project Log: 
+
+S/N 
+Task 
+Date 
+Brennan(hrs)
+Wen 
+Ting (hrs) 
+Remarks
+1 
+Liftoff Day 1 
+13/5/2021  
+4
+4 
+Poster design
+Video Storyboarding
+3
+Team meeting & initial  planning 
+15/5/2021   
+4
+4
+Layout the full idea for the project and the technology required
+Delegated roles
+Seeked feedback via an Instagram poll to 300 users
+4
+Team meeting:  
+Implementation details and  initial project structure
+17/5/2021    
+   
+10
+10
+Discussed implementation features in depth
+Begin to create project structure and test framework
+
+
+5 
+Mission Control 
+17/5/2021   
+1
+1
+1) Met with advisor(Dian Hao)  to discuss our ideas and setup github version controll
+6
+Programming at home: 
+Front End
+21/5/2021    
+   4
+  4
+Created Home Page
+7
+Programming at home: 
+Front End
+22/5/20121 
+4
+4
+Created Login Page
+8
+Future Planning of other screens
+24/5/2021    
+4
+4
+1) Created skeleton on figma to show features up to search function
+9
+Programming at home: 
+Front end 
+26/5/2021    
+7
+7
+Integrated Home Page and Login Page
+Search function still work in progress
+10
+Programming at home:
+Front end
+30/05/2021
+14
+14
+Integrated Nested Home Page(without design) after Login Page
+Search function done, not reflected.
+Bottom tab navigation in progress
+
+11
+Programming at home:
+Front end
+BEGINNING OF MILESTONE 2
+03/06/2021
+10
+10
+Search function with mock data completed
+Bottom tab navigation on nested home page completed
+12
+Programming at home: 
+Front end
+06/06/21
+12
+12
+FAQ Page
+Firebase login authentication in progress
+13
+Programming at home:
+Back end
+
+
+13/06/21
+15
+15
+Firebase connected
+Log In Page
+14
+Programming at home:
+Front end
+18/06/21
+4
+4
+Sign Up Page
+15
+Programming at home:
+Front end
+21/06/21
+6
+6
+Ranking Page
+16
+Programming at home:
+Front end
+22/06/21
+3
+3
+Material Bottom Tab
+17
+Programming at home:
+Front end
+23/06/21
+3
+3
+Updated Home Page (Signup/Login Button)
+18
+Programming at home: Back end
+25/06/21
+12
+12
+Populating firestore with data
+Tutorials on firestore usage
+Tutorials on fetching data
+19
+Programming at home:
+Front end
+BEGINNING OF MILESTONE 2
+28/06/21
+3
+3
+Planning for features
+-Thinking of Heat Map(Feasible or not)
+-List of restaurant page
+-Revamping of user interface
+20
+Programming at home:
+Front end
+
+
+01/07/21
+5
+5
+Making of restaurant pages
+Alter Ego
+Beauty In the pot
+Din Tai Fung
+Genki
+21
+Programming at home:
+Front end
+05/07/21
+5
+5
+Making of restaurant pages
+Hai Di Lao
+Koh Grill
+Lawry
+ThreeMeals A Day
+Two Man Bagel House
+
+
+22
+Programming at home:
+Front end
+12/07/21
+3
+3
+Redoing of Naviation Stack
+Redoing of Bottom Tab Navigation
+23
+Programming at home:
+Front end
+18/07/21
+7
+7
+Finalising of poster
+Finalising of ReadMe
+Finalising of User Guide
+24
+Programming at home:
+Front end
+21/07/21
+12
+12
+Final Checks of application bugs
+2) Final Check for Navigation Stacks
+
+
+
+25
+Programming at home:
+Front end
+25/07/21
+0
+0
+READY FOR SUBMISSION
+
+
+
+Total Hours for milestone 2
+Brennan
+Wenting
+304
+152
+152
+
+
